@@ -1,0 +1,115 @@
+::root {
+  --bg-color: #fff;
+  --font-color: #2e2e2e;
+}
+body {
+  background: var(--bg-color);
+  color: var(--font-color);
+  font-family: "Oxygen";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+img {
+  width: 100%;
+  height: 534px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
+}
+.logo {
+  font-family: "Lora";
+  font-size: 35px;
+  line-height: 26px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.navigation-item {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  color: var(--font-color);
+}
+
+
+
+/***** HEADER STYLES START *****/
+.header {
+  width: 100%;
+  padding: 30px 0;
+}
+/***** HEADER STYLES END *****/
+
+
+
+/***** STARTPAGE STYLES START *****/
+.startpage {
+  width: 100%;
+  text-align: center;
+  padding: 90px 0 110px 0;
+}
+.startpage__title {
+  font-family: "Lora";
+  font-size: 70px;
+  line-height: 61px;
+  letter-spacing: 4px;
+}
+.startpage__subtitle {
+  margin-top: 20px;
+  font-size: 22px;
+  opacity: .66;
+}
+/***** STARTPAGE STYLES END *****/
+
+
+
+/***** MAINTEXT STYLES START *****/
+.maintext {
+  padding: 130px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/***** MAINTEXT STYLES END *****/
+
+
+
+/***** FOOTER STYLES START *****/
+footer {
+  position: relative;
+  width: 100%;
+  padding: 40px 0;
+  z-index: 0;
+}
+footer img {
+  position: absolute;
+  filter: brightness(60%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+footer h2 {
+  color: #fff;
+}
+footer .navigation-item {
+  color: #fff;
+  opacity: .60;
+}
+/***** FOOTER STYLES END *****/
